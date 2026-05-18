@@ -1,0 +1,16 @@
+{
+  "workspaces": [
+    "frontend",
+    "vscode-extension",
+    "vscode-extension/webview"
+  ],
+  "scripts": {
+    "postinstall": "node scripts/setup-arduino-cli.mjs",
+    "setup:arduino": "node scripts/setup-arduino-cli.mjs"
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.3",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
